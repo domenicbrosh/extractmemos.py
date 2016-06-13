@@ -52,7 +52,7 @@ if len(sys.argv) < 2:
 	scriptName = ("".join(sys.argv[0].rsplit("/", 1)[-1:]))
 
 	# This script requires an input directory and optional file
-	print ("USEAGE: python %s /path/to/somedirectory[/file.memo]") % scriptName
+	print ("USEAGE: python %s /path/to/somedirectory[/file.memo]" % scriptName)
 
 else:
 	if sys.argv[1].endswith(".memo"):
